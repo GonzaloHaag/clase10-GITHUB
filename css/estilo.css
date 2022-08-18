@@ -10,8 +10,16 @@
 .hola-mundo{
     background-color:beige;
     text-align: center;
-    max-width: 650px;
+    max-width: 650px; /*Observar que con esto se adapta a responsive IMPORTANTEEEEEEEEEEE*/
     margin: 15px auto;
+}
+.flex-index{
+    display: flex;
+    flex-wrap: wrap; /*Para que se acomoden en columna al achicarse la pantalla*/
+    justify-content: center;
+}
+.flex-index img{
+    padding: 5px;
 }
 /*Mobile last*/
 @media (max-width:650px){
